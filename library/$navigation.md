@@ -18,8 +18,7 @@
 - [readme](?file=002-Other/001-readme "readme")
 
 ##### SpringAudition
-- [readme](?file=003-SpringAudition/001-readme "readme")
-- [2017冬季实习准备笔记](?file=003-SpringAudition/002-2017冬季实习准备笔记 "2017冬季实习准备笔记")
+- [2017冬季实习准备笔记](?file=003-SpringAudition/001-2017冬季实习准备笔记 "2017冬季实习准备笔记")
 
 ##### WorkAudition
 - [readme](?file=004-WorkAudition/001-readme "readme")
@@ -31,11 +30,11 @@
 - [readme](?file=006-ML/001-readme "readme")
 
 ##### BasicAlgorithm
-- [readme](?file=007-BasicAlgorithm/001-readme "readme")
+- [线段树](?file=007-BasicAlgorithm/001-线段树 "线段树")
 - [swordoffer1](?file=007-BasicAlgorithm/002-swordoffer1 "swordoffer1")
 - [位运算](?file=007-BasicAlgorithm/003-位运算 "位运算")
 - [链表相关](?file=007-BasicAlgorithm/004-链表相关 "链表相关")
-- [线段树](?file=007-BasicAlgorithm/005-线段树 "线段树")
 
 ##### Algorithm
-- [readme](?file=008-Algorithm/001-readme "readme")
+- **链表**
+    - [链表部分一](?file=008-Algorithm/001-链表/001-链表部分一 "链表部分一")
