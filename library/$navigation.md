@@ -32,6 +32,10 @@
 
 ##### BasicAlgorithm
 - [readme](?file=007-BasicAlgorithm/001-readme "readme")
+- [swordoffer1](?file=007-BasicAlgorithm/002-swordoffer1 "swordoffer1")
+- [位运算](?file=007-BasicAlgorithm/003-位运算 "位运算")
+- [链表相关](?file=007-BasicAlgorithm/004-链表相关 "链表相关")
+- [线段树](?file=007-BasicAlgorithm/005-线段树 "线段树")
 
 ##### Algorithm
 - [readme](?file=008-Algorithm/001-readme "readme")
