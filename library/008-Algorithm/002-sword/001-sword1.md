@@ -440,29 +440,29 @@ Construct minimum number by reordering a given non-negative integer array. Arran
 
 ```python
 class Solution:
-    """
-    @param: nums: n non-negative integer array
-    @return: A string
-    """
+    # @param {int[]} nums n non-negative integer array
+    # @return {str} a string
     def minNumber(self, nums):
-        # write your code here
-        nums = [str(i) for i in nums]
-        lenn = [len(i) for i in nums]
-        maxlen = max(lenn)
-        dict1 = {}
-        for i in nums:
-            ii = i*maxlen
-            ii = ii[0:maxlen]
-            dict1[i]=[ii]
-        print(dict1)
-        nums.sort(key=lambda x:dict1[x])
-        #nums.sort(key=lambda x:x,reverse=True)
-        res = ''.join(nums)
-        i = 0
-        for i in range(len(res)):
-            if res[i]!='0':
+        # Write your code here
+        nums.sort(cmp=self.cmp)
+
+        result = ''.join([str(ele) for ele in nums])
+        i, length = 0, len(result)
+        while i + 1 < length:
+            if result[i] != '0':
                 break
-        return res[i:]
+            i += 1
+
+        return result[i:]
+
+
+    def cmp(self, a, b):
+        if str(a) + str(b) < str(b) + str(a):
+            return -1
+        elif str(a) + str(b) == str(b) + str(a):
+            return 1
+        else:
+            return 0
 ```
 
 ## 380. Intersection of Two Linked Lists
